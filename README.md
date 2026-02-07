@@ -1,2 +1,2 @@
-# python-practise-2
+# python-practice-2
 Python PP2
