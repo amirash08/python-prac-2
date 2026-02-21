@@ -1,0 +1,10 @@
+{
+  "name": "Amir",
+  "age": 18,
+  "is_student": true,
+  "scores": [
+    90,
+    85,
+    100
+  ]
+}
