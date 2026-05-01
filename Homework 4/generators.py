@@ -71,4 +71,4 @@ my_generator = (num for num in range (1, 1000)) #generator expression
 print (sys.getsizeof(my_generator)) #size of generator object in bytes
 for num in my_generator: #iterating through the generator object
     print(num) #1
-    
+
