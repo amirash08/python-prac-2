@@ -1,6 +1,6 @@
 import pygame
 import random
-import sys
+
 
 
 # Initialize pygame
@@ -101,12 +101,12 @@ def game_over_screen(score, level):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
-                sys.exit()
+                
 
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     pygame.quit()
-                    sys.exit()
+                    
 
 
 def main():
@@ -230,7 +230,7 @@ def main():
         clock.tick(speed)
 
     pygame.quit()
-    sys.exit()
+    
 
 
 main()
